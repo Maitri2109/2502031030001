@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VELORA - Fashion E-Commerce</title>
+  <link rel="stylesheet" href="/styles.css">
+  
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <div class="header-content">
+        <!-- Logo -->
+        <h1 class="logo">VELORA</h1>
+
+        <!-- Desktop Navigation -->
+        <nav class="nav-desktop">
+          <a href="#home" class="nav-link">HOME</a>
+          <a href="about.html" class="nav-link">ABOUT</a>
+          <a href="#service" class="nav-link">SERVICE</a>
+          <a href="contact.html" class="nav-link">CONTACT</a>
+        </nav>
+
+        <!-- Search and Icons -->
+        <div class="header-actions">
+          <!-- Search Bar -->
+          <div class="search-bar search-desktop">
+            <svg class="icon-search" fill="none" stroke="currentColor" viewBox="0 0 24 24" width="16" height="16">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.35-4.35"></path>
+            </svg>
+            <input type="text" placeholder="Search" class="search-input">
+          </div>
+
+          <!-- Icons -->
+          <button class="icon-btn icon-desktop" onclick="openLogin()">
+            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+            </svg>
+          </button>
+          <button class="icon-btn">
+            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <circle cx="9" cy="21" r="1"></circle>
+              <circle cx="20" cy="21" r="1"></circle>
+              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg>
+          </button>
+          <button class="icon-btn icon-desktop"onclick="openLogin()">
+            <svg width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+              <circle cx="12" cy="7" r="4"></circle>
+            </svg>
+          </button>
+
+          <!-- Mobile Menu Button -->
+          <button class="menu-btn" id="menuBtn">
+            <svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Mobile Menu -->
+      <nav class="nav-mobile" id="mobileMenu">
+        <a href="#home" class="nav-link-mobile">HOME</a>
+        <a href="#about" class="nav-link-mobile">ABOUT</a>
+        <a href="#service" class="nav-link-mobile">SERVICE</a>
+        <a href="#contact" class="nav-link-mobile">CONTACT</a>
+        <div class="search-bar search-mobile">
+          <svg class="icon-search" fill="none" stroke="currentColor" viewBox="0 0 24 24" width="16" height="16">
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="m21 21-4.35-4.35"></path>
+          </svg>
+          <input type="text" placeholder="Search" class="search-input">
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <!-- Left Content -->
+        <div class="hero-text">
+          <h2 class="hero-title">Style That Speaks for You</h2>
+          <p class="hero-subtitle">
+            Discover the latest trends in fashion for women. Handpicked styles. Premium quality. Affordable prices.
+          </p>
+          <button class="btn-explore">EXPLORE NOW</button>
+        </div>
+
+        <!-- Right Image -->
+        <div class="hero-image">
+          <img src="src/assets/v47_86.png" alt="Fashion showcase" class="hero-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-bg-overlay"></div>
+    <div class="about-green-overlay"></div>
+    
+    <div class="container about-container">
+      <div class="about-content">
+        <!-- Header -->
+        <div class="about-header">
+          <svg class="about-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24" width="64" height="64">
+            <circle cx="9" cy="21" r="1"></circle>
+            <circle cx="20" cy="21" r="1"></circle>
+            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+          </svg>
+          <h2 class="about-title">About us</h2>
+        </div>
+
+        <p class="about-tagline">Where Style Meets Confidence</p>
+
+        <!-- Content Box -->
+        <div class="about-box">
+          <p>
+            Welcome to Velora your one-stop destination for trendy, high-quality, and affordable fashion. We believe fashion is not just about clothes — it's about expressing who you are.
+          </p>
+          <p>
+            At Velora, we carefully curate collections that blend modern trends, comfort, and elegance. Whether you're looking for everyday casual wear, festive outfits, or statement pieces, we're here to help you look and feel your best.
+          </p>
+          <p>
+            Our mission is to make fashion easy, enjoyable, and empowering for everyone. We don't just sell outfits — we help you create your style story.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- New Arrivals Section -->
+  <section class="new-arrivals">
+    <div class="container">
+      <!-- Section Title -->
+      <div class="section-header">
+        <h2 class="section-title">NEW ARRIVAL</h2>
+        <p class="section-subtitle">Fresh Finds, Just Arrived! Explore Now!</p>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid">
+        <!-- Product 1 -->
+        <div class="product-card">
+          <div class="product-image-wrapper">
+            <div class="discount-badge">
+              <span class="discount-text">15%OFF</span>
+            </div>
+            <div class="product-image">
+              <img src="src/assets/v109_178.png">
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-name-tag">
+              <h3 class="product-name">BROWN COAT</h3>
+            </div>
+            <p class="product-price">$32.9</p>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+          <div class="product-image-wrapper">
+            <div class="discount-badge">
+              <span class="discount-text">15%OFF</span>
+            </div>
+            <div class="product-image">
+              <img src="src/assets/v113_567.png" alt="Brown Coat">
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-name-tag">
+              <h3 class="product-name">RED DRESS</h3>
+            </div>
+            <p class="product-price">$30.0</p>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+          <div class="product-image-wrapper">
+            <div class="discount-badge">
+              <span class="discount-text">15%OFF</span>
+            </div>
+            <div class="product-image">
+              <img src="src/assets/v109_197.png" alt="Brown Coat">
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-name-tag">
+              <h3 class="product-name">WHITE BOHO DRESS</h3>
+            </div>
+            <p class="product-price">$42.9</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Exclusive Offer Section -->
+  <section class="exclusive-offer">
+    <div class="container">
+      <div class="offer-content">
+        <!-- Left Image -->
+        <div class="offer-image">
+          <img src="src/assets/v52_32.png">
+        </div>
+
+        <!-- Right Content -->
+        <div class="offer-text">
+          <h2 class="offer-title">EXCLUSIVE OFFER</h2>
+          <p class="offer-tagline">Unbeatable Deals Just for You</p>
+          <p class="offer-description">
+            Upgrade your wardrobe with the latest fashion trends. Discover premium-quality clothing for women — all at irresistible prices.
+          </p>
+
+          <!-- Countdown Timer -->
+          <div class="countdown">
+            <div class="countdown-item countdown-featured">
+              <div class="countdown-number" id="days">06</div>
+              <div class="countdown-label">days</div>
+            </div>
+            <div class="countdown-item">
+              <div class="countdown-number" id="hours">18</div>
+              <div class="countdown-label">hours</div>
+            </div>
+            <div class="countdown-item">
+              <div class="countdown-number" id="minutes">48</div>
+              <div class="countdown-label">min</div>
+            </div>
+          </div>
+
+          <!-- CTA Button -->
+          <button class="btn-shop">SHOP NOW</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials">
+    <div class="container">
+      <!-- Section Title -->
+      <h2 class="testimonials-title">TESTIMONIALS</h2>
+
+      <!-- Testimonials Grid -->
+      <div class="testimonials-grid">
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card">
+          <h3 class="testimonial-name">Maitri S.</h3>
+          <p class="testimonial-text">
+            "Loved the quality of the fabric! The fitting was perfect and delivery was super fast. Definitely shopping again."
+          </p>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="testimonial-card">
+          <h3 class="testimonial-name">Riya P.</h3>
+          <p class="testimonial-text">
+            "The designs are trendy and prices are very reasonable. Exactly what I was looking for!"
+          </p>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card">
+          <h3 class="testimonial-name">Rahul S</h3>
+          <p class="testimonial-text">
+            "Excellent quality clothing and great attention to detail. The overall shopping experience was smooth and hassle-free. Highly recommended!"
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <!-- Section Title -->
+      <h2 class="contact-title">GET IN TOUCH</h2>
+
+      <!-- Contact Form -->
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <!-- Name -->
+          <div class="form-group">
+            <label class="form-label">NAME</label>
+            <input type="text" name="name" class="form-input">
+          </div>
+
+          <!-- Email -->
+          <div class="form-group">
+            <label class="form-label">EMAIL*</label>
+            <input type="email" name="email" class="form-input" required>
+          </div>
+        </div>
+
+        <!-- Phone Number -->
+        <div class="form-group">
+          <label class="form-label">PHONE NUMBER</label>
+          <input type="tel" name="phone" class="form-input">
+        </div>
+
+        <!-- Comment -->
+        <div class="form-group">
+          <label class="form-label">COMMENT</label>
+          <textarea name="comment" rows="5" class="form-textarea"></textarea>
+        </div>
+
+        <!-- Submit Button -->
+        <div class="form-submit">
+          <button type="submit" class="btn-submit">SEND MESSAGE</button>
+        </div>
+      </form>
+
+      <!-- Contact Information -->
+      <div class="contact-info-section">
+        <h3 class="contact-info-title">CONTACT US</h3>
+        <p class="contact-info-subtitle">We'd Love to Hear From You</p>
+
+        <div class="contact-info-grid">
+          <div class="contact-info-card">
+            <span class="contact-info-label">EMAIL</span>
+            <p class="contact-info-text">queriesfeel@gmail.com</p>
+          </div>
+          <div class="contact-info-card">
+            <span class="contact-info-label">MOBILE</span>
+            <p class="contact-info-text"> +919960141496</p>
+          </div>
+          <div class="contact-info-card">
+            <h4 class="contact-info-heading">ADDRESS</h4>
+            <a href="https://www.google.com/maps/place/334,+Sachapir+St,+Camp,+Pune" target="_blank" class="contact-info-link">
+              334, Sachapir St, Camp, Pune, Maharashtra 411001
+            </a>
+          </div>
+          <div class="contact-info-card">
+            <h4 class="contact-info-heading">TIMING</h4>
+            <p class="contact-info-text">Mon - Sun: 10am to 8pm</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <!-- Quick Links -->
+        <div class="footer-section">
+          <div class="footer-heading-wrapper">
+            <h3 class="footer-heading">QUICK LINK</h3>
+          </div>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#new-arrivals">New Arrivals</a></li>
+            <li><a href="#exclusive-offers">Exclusive Offers</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Customer Support -->
+        <div class="footer-section">
+          <div class="footer-heading-wrapper">
+            <h3 class="footer-heading">CUSTOMER SUPPORT</h3>
+          </div>
+          <ul class="footer-links">
+            <li><a href="#help">Help Center</a></li>
+            <li><a href="#faq">FAQs</a></li>
+            <li><a href="#shipping">Shipping & Delivery</a></li>
+            <li><a href="#returns">Returns & Exchanges</a></li>
+            <li><a href="#size-guide">Size Guide</a></li>
+          </ul>
+        </div>
+
+        <!-- Newsletter Signup -->
+        <div class="footer-section footer-newsletter">
+          <p class="footer-newsletter-text">SIGN UP TO GET 10% OFF ON FIRST ORDER</p>
+
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="YOUR EMAIL ADDRESS" class="newsletter-input" required>
+            <button type="submit" class="btn-subscribe">SUBSCRIBE</button>
+          </form>
+
+          <!-- Social Icons -->
+          <div class="social-icons">
+            <a href="#facebook" class="social-link">
+              <img src="src/assets/v113_897.png" alt="Facebook" class="social-icon">
+            </a>
+            <a href="#instagram" class="social-link">
+              <img src="src/assets/v113_896.png" alt="Instagram" class="social-icon">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright -->
+      <div class="footer-copyright">
+        <p>© 2026 VELORA. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  
+  <!-- Login Popup -->
+<div class="login-popup" id="loginPopup">
+
+  <div class="login-box">
+
+    <span class="close-btn" onclick="closeLogin()">✖</span>
+
+    <p class="welcome-text">
+      Welcome back, please login to your account
+    </p>
+
+    <h2 class="login-title">LOGIN PAGE</h2>
+    <img src="undraw_shopping-bags_nfsf (1).svg" class="auth-img">
+
+    <input type="email" placeholder="ENTER EMAIL" class="input-box">
+
+    <input type="password" placeholder="ENTER PASSWORD" class="input-box">
+
+    <p class="forgot">Forgot Password?</p>
+
+    <button class="login-btn">LOGIN</button>
+    <p class="switch">
+Don't have an account? <a href="signup.html">Sign Up</a>
+</p>
+
+  </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>

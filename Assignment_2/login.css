@@ -1,0 +1,89 @@
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+background:#eee;
+}
+
+/* container */
+
+.auth-container{
+width:360px;
+padding:35px;
+border-radius:25px;
+text-align:center;
+color:black;
+
+background:linear-gradient(135deg,#f97316,#2f4f3e);
+}
+
+/* title */
+
+.auth-container h3{
+font-size:16px;
+margin-bottom:20px;
+}
+
+/* image */
+
+.auth-img{
+width:170px;
+margin-bottom:15px;
+}
+
+/* heading */
+
+.auth-container h2{
+margin:15px 0;
+font-family:Georgia, serif;
+}
+
+/* inputs */
+
+input{
+width:100%;
+padding:14px;
+margin:10px 0;
+border:none;
+border-radius:25px;
+background:#ddd;
+font-weight:bold;
+text-align:center;
+}
+
+/* forgot */
+
+.forgot{
+text-align:right;
+font-size:13px;
+cursor:pointer;
+}
+
+/* button */
+
+.auth-btn{
+margin-top:15px;
+width:60%;
+padding:12px;
+border:none;
+border-radius:25px;
+background:#e6d9c6;
+font-weight:bold;
+cursor:pointer;
+}
+
+/* switch */
+
+.switch{
+margin-top:15px;
+font-size:14px;
+}
+
+.switch a{
+text-decoration:none;
+font-weight:bold;
+color:black;
+}

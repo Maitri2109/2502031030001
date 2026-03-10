@@ -1,0 +1,141 @@
+.contact {
+  background-color: #41644a;
+  padding: 4rem 0;
+}
+
+.contact-title {
+  font-family: 'Magra', sans-serif;
+  font-size: 3rem;
+  color: #e2e3e4;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.contact-form {
+  max-width: 56rem;
+  margin: 0 auto 4rem;
+}
+
+.form-row {
+  display: grid;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  font-family: 'Magra', sans-serif;
+  font-size: 2rem;
+  color: black;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  background-color: white;
+  border: 2px solid #d9d9d9;
+  border-radius: 0.5rem;
+  padding: 1rem 1.5rem;
+  font-size: 1.125rem;
+  transition: border-color 0.3s;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  outline: none;
+  border-color: #e9762b;
+}
+
+.form-textarea {
+  resize: none;
+}
+
+.form-submit {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.btn-submit {
+  font-family: 'Magra', sans-serif;
+  font-size: 2rem;
+  color: black;
+  background-color: #e9762b;
+  padding: 1.5rem 4rem;
+  border-radius: 50px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+  background-color: #d96925;
+}
+
+.contact-info-section {
+  margin-top: 4rem;
+}
+
+.contact-info-title {
+  font-family: 'Magra', sans-serif;
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact-info-subtitle {
+  font-family: 'Magra', sans-serif;
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.contact-info-grid {
+  display: grid;
+  gap: 1.5rem;
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+.contact-info-card {
+  background-color: #d9d9d9;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.contact-info-label {
+  font-family: 'Magra', sans-serif;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.contact-info-heading {
+  font-family: 'Magra', sans-serif;
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.contact-info-link {
+  font-family: 'Magra', sans-serif;
+  font-size: 1.125rem;
+  color: black;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.contact-info-link:hover {
+  color: #e9762b;
+}
+
+.contact-info-text {
+  font-family: 'Magra', sans-serif;
+  font-size: 1.125rem;
+  color: black;
+}
